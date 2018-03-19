@@ -11,19 +11,34 @@
   background-size: cover;  
   background-position: top;
 }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 
-.icon{
-  width: 3em;
-  position: relative;
-  left: 10em;
+.logo img{
+  width: 2em;
 }
-label{
-  position: relative;
-  left: 8em;
-  top: 1.5em;
-  font-size: 1.5em;
-  color: white;
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+.topnav a:hover {
+  background-color: #ff0044;
+  color: black;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
 li{
   padding-right: 2em;
 }
@@ -32,12 +47,14 @@ li a{
   color: white;
 }
 .title{
-  font-size: 5em;
+  font-size: 7em;
   position: relative;
   top: 3em;
   color: white;
 }
-
+.titleSobreMi{
+  font-size: 2.5em;
+}
 .containerTransparente{
   width: 100%;
   height: 100vh;
@@ -102,8 +119,11 @@ li a{
   font-size: 2.5em;
   color: white;
   position: relative;
-  left: 2.5em;
+  /*left: 2.5em;*/
   font-weight: bold;
+}
+.titleHabilidades{
+  margin-left: 1em;
 }
 .titleProyectos{
   color: black;
@@ -112,96 +132,12 @@ li a{
   position: relative;
   left: 15em;
 }
-.ulImages{
-  position: relative;
-  right: 13em;
-  top: 11em;
-  padding: 0;
-  width: 1200px;
-  display: flex;
+.titleContacto{
+  margin-left: 3em;
 }
-.ulImages li{
-  list-style: none;
-}
-.ulImages li .imageBox{
-  width: 400px;
-  height: 285px;
-  box-sizing: border-box;
-  padding: 0 10px;
-}
-.ulImages li .imageBox figure{
-  position: relative;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.ulImages li .imageBox figure:before, .ulImages li .imageBox figure:after{
-  content: '';
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 50%;
-  background: #262626;
-  transition: .5s;
-}
-.ulImages li .imageBox figure:before{
-  left: -50%;
-}
-.ulImages li .imageBox:hover figure:before{
-  left: 0;
-}
-.ulImages li .imageBox figure:after{
-  right: -50%;
-}
-.ulImages li .imageBox:hover figure:after{
-  right: 0;
-}
-.imgRuta{
-  height: 200%;
-}
-.ulImages li .imageBox figure img{
-  width: 150%;
-  height: 100%;
-}
-.ulImages li .imageBox figure figcaption{
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  bottom: 20px;
-  right: 20px;
-  background: #fff;
-  text-align: center;
-  padding: 20px;
-  opacity: 0;
-  transition: .5s;
-  transform: translateY(-20px);
-  z-index: 1;
-}
-.ulImages li .imageBox:hover figure figcaption{
-  opacity: 1;
-  transform: translateY(0);
-}
-.ulImages li .imageBox figure figcaption h3{
-  margin: 0;
-  padding: 0;
-  font-size: 22px;
-}
-.ulImages li .imageBox figure figcaption p{
-  margin: 10px 0 0;
-  padding: 0;
-  font-size: 16px;
-}
-.ulImages li .imageBox figure figcaption a{
-  display: inline-block;
-  padding: 10px 20px;
-  background: #ff0044;
-  color: #fff;
-  margin-top: 20px;
-  text-decoration: none;
-}
+
 .colorContacto{
   color: white;
-  font-weight: bold;
   text-align: center;
 }
 i{

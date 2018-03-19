@@ -15,9 +15,9 @@
   <link rel="stylesheet" type="text/css" href="assets/css/media.css">
 </head>
 <body>
-<!-- Header logo y menú principal -->
+<!-- Header logo y menú principal 
 <header class="first-section" id="inicio">
-   <nav class="navbar  navbar-fixed-top height-navbar" role="navigation">
+   <nav class="navbar  navbar-fixed-top" role="navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -39,20 +39,30 @@
       </ul>
     </div>
   </nav>
-</header>
-
+</header>-->
+<header class="first-section" id="inicio">
+<div class="topnav navbar-fixed-top" id="myTopnav">
+  <a href="#" class="logo"><img src="assets/images/logo.png"></a>
+  <a href="#inicio">Inicio</a>
+  <a href="#sobreMi">Sobre Mi</a>
+  <a href="#habilidades">Habilidades</a>
+  <a href="#proyectos">Proyectos</a>
+  <a href="#contacto">Contacto</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 	<div class="container-fluid" id="backgroundImage">
     <div class="row">
       <div class="col-md-10 col-md-offset-2 col-sm-12">
-        <h1 class="title"><strong>Front End Developer</strong></h1>
+        <h1 class="title"><strong>Front-End Developer</strong></h1>
       </div>
     </div>
   </div>
+</header>
 
 <div class="container-fluid parallax" id="sobreMi">
   <div class="row">
     <div class="col-md-5 col-md-offset-1">
-      <h2 class="titleSobreMi wow zoomIn" data-wow-duration="2s" data-wow-delay="1s"><strong>SOBRE MI</strong></h2><br>
+      <p class="titleSobreMi wow zoomIn" data-wow-duration="2s" data-wow-delay="1s"><strong>SOBRE MI</strong></p><br>
       <p class="textSobreMi wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">Hola! Mi nombre es Katherine y soy una aspirante a desarrolladora de Front End, he trabajado en proyectos utilizando HTML, CSS y Javascript. Mi objetivo es integrar mi formación académica y experiencia al servicio de una organización, contribuyendo así al cumplimiento de sus objetivos y su misión, permitiéndome lograr un crecimiento sólido como profesional en la industria tecnológica. Trabajo a través de la metodología ágil, para mejorar la eficiencia del desarrollo en cada uno de los proyectos.</p>
     </div>
     <div class="col-md-6">
@@ -66,34 +76,34 @@
     <div class="containerTransparente">
     <div class="row">
       <div class="col-md-6 col-md-offset-4">
-        <h2 class="titleHabilidades colorHabilidades wow zoomIn" data-wow-duration="2s" data-wow-delay="1s"><strong>HABILIDADES</strong></h2>
+        <p class="titleHabilidades colorHabilidades wow zoomIn" data-wow-duration="2s" data-wow-delay="1s"><strong>HABILIDADES</strong></p>
       </div>
     </div>
      <div class="row">
-      <div class="col-md-3 img">
+      <div class="col-md-3 col-sm-2 col-sm-offset-right-1 img">
         <i class="devicon-html5-plain-wordmark wow zoomIn" data-wow-duration="4s"></i>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-2 col-sm-offset-right-1">
         <i class="devicon-css3-plain-wordmark wow zoomIn" data-wow-duration="4s"></i>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-2 col-sm-offset-right-1">
         <i class="devicon-javascript-plain wow zoomIn" data-wow-duration="4s"></i>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-2 col-sm-offset-right-1">
         <i class="devicon-jquery-plain-wordmark wow zoomIn" data-wow-duration="4s"></i>
       </div>
     </div>
      <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-2">
         <i class="devicon-bootstrap-plain-wordmark wow zoomIn" data-wow-duration="4s"></i>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-2">
         <i class="devicon-sass-original wow zoomIn" data-wow-duration="4s"></i>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-2">
         <i class="devicon-github-plain-wordmark wow zoomIn" data-wow-duration="4s"></i>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-2">
        <i class="devicon-react-original-wordmark wow zoomIn" data-wow-duration="4s"></i>
       </div>
     </div>
@@ -111,48 +121,10 @@
 <div class="container-fluid" id="proyectos">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="titleProyectos wow zoomIn" data-wow-duration="2s" data-wow-delay="1s"><strong>PROYECTOS</strong></h2>
+      <p class="titleProyectos wow zoomIn" data-wow-duration="2s" data-wow-delay="1s"><strong>PROYECTOS</strong></p>
     </div>
   </div>
-  <ul class="ulImages">
-    <li>
-      <div class="imageBox">
-        <figure>
-          <img class="imgRuta wow zoomIn" data-wow-duration="2s" data-wow-delay="1s" src="assets/images/ruta.png">
-          <figcaption>
-            <h3>Titulo</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe maxime dignissimos totam odit dolorem harum odio unde, reprehenderit temporibus quisquam, quidem, assumenda, explicabo fuga! Ipsam modi impedit enim autem?</p>
-            <a href="https://katherineramirez.github.io/easy-vreco/">Demo</a> <a href="https://github.com/katherineRamirez/easy-vreco">GitHub</a>
-          </figcaption>
-        </figure>
-      </div>
-    </li>
-      <li>
-      <div class="imageBox">
-        <figure>
-          <img class="imgPronostico wow zoomIn" data-wow-duration="2s" data-wow-delay="1s" src="assets/images/pronostico.png">
-          <figcaption>
-            <h3>Titulo</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe maxime dignissimos totam odit dolorem harum odio unde, reprehenderit temporibus quisquam, quidem, assumenda, explicabo fuga! Ipsam modi impedit enim autem?</p>
-            <a href="https://katherineramirez.github.io/weatherReact/">Demo</a> <a href="https://github.com/katherineRamirez/weatherReact">GitHub</a>
-          </figcaption>
-        </figure>
-      </div>
-    </li>
-      <li>
-      <div class="imageBox wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
-        <figure>
-          <img class="imgWeather" src="assets/images/WEATHER.png">
-          <figcaption>
-            <h3>Titulo</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe maxime dignissimos totam odit dolorem harum odio unde, reprehenderit temporibus quisquam, quidem, assumenda, explicabo fuga! Ipsam modi impedit enim autem?</p>
-            <a href="https://katherineramirez.github.io/WEATHER/">Demo</a> <a href="https://github.com/katherineRamirez/WEATHER">GitHub</a>
-          </figcaption>
-        </figure>
-      </div>
-    </li>
-  </ul>
-   
+  
   </div>
 
 
@@ -160,7 +132,7 @@
     <div class="containerTransparenteContacto">
       <div class="row">
         <div class="col-md-6 col-md-offset-4">
-          <h2 class="titleContacto colorHabilidades wow zoomIn" data-wow-duration="2s" data-wow-delay="1s"><strong>CONTACTO</strong></h2>
+          <p class="titleContacto colorHabilidades wow zoomIn" data-wow-duration="2s" data-wow-delay="1s"><strong>CONTACTO</strong></p>
         </div>
       </div>
       <div class="container">
@@ -199,11 +171,8 @@
       </div>
      
     </div> 
-     <div class="row">
-        <div class="col-md-12">
           <p class="desarrollo">Desarrollado por Katherine Ramírez | Laboratoria 2018</p>
-        </div>
-      </div>   
+          
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
