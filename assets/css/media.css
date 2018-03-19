@@ -1,0 +1,90 @@
+@media (min-width: 200px) and (max-width: 600px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+	.icon{
+  width: 2.5em;
+  left: 0.50em;
+	}
+	label{
+  display: none;
+	}
+	li a{
+  background-color: #ff0044;
+	color: white; 
+  float: right;
+  margin-left: 10em;
+	}
+	
+	.title{
+  font-size: 3.1em;
+  top: 5em;
+	}
+	#sobreMi{
+		height: 230vh;
+	}
+	.foto{
+		width: 40%;
+		left: 9em;
+	}
+	.titleSobreMi{
+		text-align: center;
+	}
+	.titleHabilidades{
+		padding-top: 1em;
+	}
+	i{
+  font-size: 3em;
+  float: left;
+	}
+	.devicon-html5-plain-wordmark, .devicon-bootstrap-plain-wordmark{
+		margin-left: 1em;
+	}
+	.devicon-slack-plain{
+  font-size: 3em;
+  top: 2.5em;
+  left: 1em;
+	}
+	.devicon-jquery-plain-wordmark, .devicon-react-original-wordmark{
+		margin-left: 1em;
+	}
+	.devicon-git-plain{
+		font-size: 3em;
+  top: 2.5em;
+  left: 2em;
+	}
+	.titleProyectos{
+  padding-top: 0.50em;
+  left: 2.5em;
+	}
+	.titleContacto{
+		padding-top: 0.50em;
+	}
+	.logos{
+  margin-top: 2em;
+  width: 4em;
+  margin-left: 3.5em;
+  float: left;
+	}
+	.arrow{
+  width: 2em;
+  left: 9.5em;
+	}
+	span{
+		background-color: #ff0044;
+	}
+	#contacto, .containerTransparenteContacto{
+		height: 100vh;
+	}
+	#proyectos{
+		height: 230vh;
+	}
+	.ulImages{
+  display: block;
+	}
+
+	.ulImages li .imageBox figure img{
+  width: 90%;
+	}
+
+}

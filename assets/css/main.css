@@ -1,0 +1,284 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+#backgroundImage{
+  background-image: url(https://geoinnova.org/blog-territorio/wp-content/uploads/2016/05/programaci%C3%B3n-2.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-position: top;
+}
+
+.icon{
+  width: 3em;
+  position: relative;
+  left: 10em;
+}
+label{
+  position: relative;
+  left: 8em;
+  top: 1.5em;
+  font-size: 1.5em;
+  color: white;
+}
+li{
+  padding-right: 2em;
+}
+li a{
+  list-style: none;
+  color: white;
+}
+.title{
+  font-size: 5em;
+  position: relative;
+  top: 3em;
+  color: white;
+}
+
+.containerTransparente{
+  width: 100%;
+  height: 100vh;
+  background: black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  position: relative;
+  bottom: 3em;
+}
+.parallax{
+  background: #fff fixed no-repeat 50% 50%;
+  background-size: cover;
+}
+#habilidades{
+  background-image: url(https://cdn-images-1.medium.com/max/1068/1*YjcPGzby8LtCorOKW4ozLQ.jpeg);
+}
+#contacto{
+  background-image: url(https://spanishschoolsantabarbara.com/wp-content/uploads/2017/03/contacto.png);
+}
+
+.textSobreMi{
+  font-size: 1.5em;
+}
+.foto{
+  width: 50%;
+  background: #ffffff;
+  padding:10px;
+  -webkit-box-shadow: 1px 1px 5px #000000;
+  -moz-box-shadow: 1px 1px 5px #000000;
+  box-shadow: 1px 1px 5px #000000;
+  border-radius: 5px 40px 5px; 
+  overflow: hidden;
+  filter: grayscale(.8);
+  position: relative;
+  left: 5em;
+  top: 2em;
+}
+.foto::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  background: rgba(255,255,255,.2);
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+#sobreMi, #habilidades, #proyectos, #contacto{
+  padding-top: 3em;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.colorHabilidades{
+  padding-top: 3em;
+  font-size: 2.5em;
+  color: white;
+  position: relative;
+  left: 2.5em;
+  font-weight: bold;
+}
+.titleProyectos{
+  color: black;
+  padding-top: 1em;
+  font-size: 2.5em;
+  position: relative;
+  left: 15em;
+}
+.ulImages{
+  position: relative;
+  right: 13em;
+  top: 11em;
+  padding: 0;
+  width: 1200px;
+  display: flex;
+}
+.ulImages li{
+  list-style: none;
+}
+.ulImages li .imageBox{
+  width: 400px;
+  height: 285px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.ulImages li .imageBox figure{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.ulImages li .imageBox figure:before, .ulImages li .imageBox figure:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: #262626;
+  transition: .5s;
+}
+.ulImages li .imageBox figure:before{
+  left: -50%;
+}
+.ulImages li .imageBox:hover figure:before{
+  left: 0;
+}
+.ulImages li .imageBox figure:after{
+  right: -50%;
+}
+.ulImages li .imageBox:hover figure:after{
+  right: 0;
+}
+.imgRuta{
+  height: 200%;
+}
+.ulImages li .imageBox figure img{
+  width: 150%;
+  height: 100%;
+}
+.ulImages li .imageBox figure figcaption{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  transition: .5s;
+  transform: translateY(-20px);
+  z-index: 1;
+}
+.ulImages li .imageBox:hover figure figcaption{
+  opacity: 1;
+  transform: translateY(0);
+}
+.ulImages li .imageBox figure figcaption h3{
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+.ulImages li .imageBox figure figcaption p{
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 16px;
+}
+.ulImages li .imageBox figure figcaption a{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff0044;
+  color: #fff;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.colorContacto{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+i{
+  position: relative;
+  top: 1.5em;
+  font-size: 5em;
+  color: white;
+}
+i:hover{
+  color: #ff0044;
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.devicon-html5-plain-wordmark, .devicon-bootstrap-plain-wordmark{
+  margin-left: 2em;
+}
+.devicon-css3-plain-wordmark, .devicon-sass-original{
+  margin-left: 1em;
+}
+.devicon-javascript-plain, .devicon-github-plain-wordmark{
+  margin-left: 0.50em;
+}
+.devicon-bootstrap-plain-wordmark, .devicon-sass-original, .devicon-github-plain-wordmark, .devicon-react-original-wordmark, .devicon-git-plain, .devicon-slack-plain{
+  position: relative;
+  top: 2em;
+}
+
+.devicon-slack-plain{
+  font-size: 5em;
+  position: relative;
+  top: 2.5em;
+  left: 2em;
+}
+.devicon-git-plain{
+  font-size: 5em;
+  position: relative;
+  top: 2.5em;
+  left: 1em;
+}
+
+.containerTransparenteContacto{
+  width: 100%;
+  height: 100vh;
+  background: black;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+  position: relative;
+  bottom: 3em;
+}
+.logos{
+  margin-top: 7em;
+  width: 5em;
+  margin-left: 2.5em;
+}
+.contLogo:hover .logos{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+.cv{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2.5em;
+  font-size: 2em;
+}
+.arrow{
+  width: 3em;
+  position: relative;
+  left: 1.5em;
+  bottom: 1em;
+}
+.descarga{
+  color: white;
+  padding-left: 3.5em;
+  margin-top: 1.5em;
+  cursor: pointer;
+}
+.desarrollo{
+  text-align: center;
+  padding-top: 1em;
+}
