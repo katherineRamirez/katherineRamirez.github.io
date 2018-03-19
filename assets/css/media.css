@@ -1,4 +1,4 @@
-@media (min-width: 990px) and (max-width: 1200px) {
+@media (min-width: 601px) and (max-width: 1200px) {
   .title{
     font-size: 6em;
   }
@@ -15,7 +15,7 @@
     margin-left: 1.5em;
   }
 }
-@media (min-width: 500px) and (max-width: 989px) {
+/*@media (min-width: 521px) and (max-width: 700px) {
   .title{
     font-size: 5em;
   }
@@ -69,16 +69,16 @@
   .arrow{
     left: 22em;
   }
-}
+}*/
 
-@media (min-width: 200px) and (max-width: 599px) {
+@media (min-width: 200px) and (max-width: 600px) {
   .title{
-    top: 7em;
-    font-size: 2.5em;
+    top: 6em;
+    font-size: 2.7em;
   }
   .foto{
-    width: 20%;
-    left: 15em;
+    width: 30%;
+    left: 10em;
   }
   .titleSobreMi{
     font-size: 1.5em;
@@ -88,7 +88,7 @@
     font-size: 1em;
   }
   #backgroundImage, #sobreMi, #habilidades, #proyectos, #contacto, .containerTransparente, .containerTransparenteContacto{
-    height: 80vh;
+    height: 100vh;
   }
    p.titleContacto.colorHabilidades.wow.zoomIn{
     margin: 0;
@@ -136,10 +136,11 @@
     width: 3.8em;
     float: left;
     position: relative;
-    left: 4em;
+    left: 1em;
   }
   .arrow{
-    left: 12em;
+    left: 8em;
+    width: 2em;
   }
 
 }
