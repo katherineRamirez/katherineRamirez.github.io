@@ -74,21 +74,21 @@
 @media (min-width: 200px) and (max-width: 600px) {
   .title{
     top: 6em;
-    font-size: 2.7em;
+    font-size: 2.4em;
   }
   .foto{
     width: 30%;
     left: 10em;
   }
   .titleSobreMi{
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-align: center;
   }
   .textSobreMi{
     font-size: 1em;
   }
   #backgroundImage, #sobreMi, #habilidades, #proyectos, #contacto, .containerTransparente, .containerTransparenteContacto{
-    height: 100vh;
+    height: 120vh;
   }
    p.titleContacto.colorHabilidades.wow.zoomIn{
     margin: 0;
@@ -118,16 +118,11 @@
   .devicon-jquery-plain-wordmark, .devicon-react-original-wordmark{
     margin-left: 0.9em;
   }
-  .devicon-git-plain, .devicon-slack-plain{
-    font-size: 2.5em;
-  }
-  .devicon-slack-plain{
-    top: 5em;
-    left: 1.1em;
-  }
+ 
   .devicon-git-plain{
-    top: 5em;
-    left: 2.3em;
+    font-size: 2.6em;
+    top: 4.5em;
+    left: 1em;
   }
   .devicon-bootstrap-plain-wordmark, .devicon-sass-original, .devicon-github-plain-wordmark, .devicon-react-original-wordmark{
     top: 3em;
@@ -142,6 +137,32 @@
     left: 8em;
     width: 2em;
   }
+  .desarrollo{
+    font-size: 0.80em;
+  }
+  #imgdex { 
+    top: 15em;
+    perspective: 1000px;
+    width: 90%;
+    right: 15em;
+  }
+  #imgdex figure {
+    top: 0; 
+    left: 0;    
+    width: 350%;
+  }
+  #imgdex figure img {
+    width: 105%;
+  }
+  #imgdex figure figcaption{
+    display: none;
+  }
+  form input[type="range"] { 
+    width: 350%;
+    top: 9.5em;
+    right: 17em;
+  }
+
 
 }
 
