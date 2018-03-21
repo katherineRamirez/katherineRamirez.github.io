@@ -4,52 +4,73 @@
   font-family: 'Roboto', sans-serif;
 }
 #backgroundImage{
-  background-image: url(https://geoinnova.org/blog-territorio/wp-content/uploads/2016/05/programaci%C3%B3n-2.jpg);
+  background-image: url(https://images.pexels.com/photos/7974/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;  
   background-position: top;
 }
-.topnav {
+.nav {
+  height: 80px;
+  width: 100%;
+  background-color: #4d4d4d;
   position: fixed;
-  overflow: hidden;
-  background-color: #333;
+  z-index: 10000;
 }
-
-.logo img{
+.logo{
+  display: flex;
   width: 2em;
+  -ms-align-items: center;
+  align-items: center;
 }
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+.nav > .nav-header {
+  display: inline-block;
+}
+
+.nav > .nav-header > .nav-title {
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+.nav > .nav-header > .nav-title a {
   text-decoration: none;
-  font-size: 17px;
+  color: #fff;
+  font-size:  20px;
+  margin-left: 8px;
+  font-weight: normal;
+}
+.nav > .nav-btn {
+  display: none;
+
 }
 
-.topnav a:hover {
-  background-color: #ff0044;
-  color: white;
-}
-.topnav a .imgLogo:hover {
-  background-color: white;
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
 }
 
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
 
-.topnav .icon {
+.nav > .nav-links > a:hover {
+  border-bottom: 2px solid #ff0044;
+  color: #ff0044;
+}
+
+.nav > #nav-check {
   display: none;
 }
 
-li{
-  padding-right: 2em;
-}
-li a{
-  list-style: none;
-  color: white;
-}
+
 .title{
   font-size: 7em;
   position: relative;

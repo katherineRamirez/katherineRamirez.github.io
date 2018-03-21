@@ -41,3 +41,4 @@ function updateImage(slider) {
 	   oldimg.querySelector('figcaption').style.opacity = 0;
    }
 }
+
