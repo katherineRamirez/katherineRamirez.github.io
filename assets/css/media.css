@@ -2,6 +2,7 @@
   .title{
     top: 10em;
     font-size: 2em;
+    text-align: center;
   }
   .foto{
     width: 30%;
@@ -38,27 +39,34 @@
     text-align: center;
   }
   p.titleProyectos{
-    left: 2.5em;
+    left: 2em;
+  }
+  .rowProyect{
+    position: relative;
+    right: 1em;
   }
   .contentImg{
-  left: 0.2em;
+  left: 0;
 }
   .section{
     transform: translate(-50%,-50%);
+    left: 0.10px;
     height: 320px;
-    width: 390px;
+    width: 338px;
 
 }
   .section2{
     transform: translate(-50%,-50%);
+    left: 0.10px;
     height: 320px;
-    width: 390px;
+    width: 338px;
     top: 50em;
 }
   .section3{
     transform: translate(-50%,-50%);
+    left: 0.10px;
     height: 320px;
-    width: 390px;
+    width: 338px;
     top: 75em;
 }
 .content{
