@@ -43,7 +43,7 @@
   }
   .rowProyect{
     position: relative;
-    right: 1em;
+    right: 1.3em;
   }
   .contentImg{
   left: 0;
@@ -71,17 +71,17 @@
 }
 .content{
     width: calc(62% - 62px);
-    padding: 20px 40px;
+    padding: 10px 30px;
     height: 310px;
 }
 .content2{
     width: calc(62% - 62px);
-    padding: 20px 40px;
+    padding: 10px 30px;
     height: 310px;
 }
 .content3{
     width: calc(62% - 62px);
-    padding: 20px 40px;
+    padding: 10px 30px;
     height: 310px;
 }
 .imageBox{
@@ -108,7 +108,7 @@
 }
 .titleDetailProyect{
   font-size: 1.5em;
-  margin-top: 0;
+  margin-top: 0.50em;
   margin-left: 0;
 }
 .btnProyect{
