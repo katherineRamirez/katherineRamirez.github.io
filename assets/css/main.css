@@ -134,10 +134,15 @@
 #proyectos{
   padding-top: 3em;
   width: 100%;
-  height: 280vh;
+  height: 260vh;
   display: flex;
 }
-
+.titleDetailProyect{
+  font-size: 2.5em;
+}
+.detailProyect{
+  font-size: 1.3em;
+}
 .colorHabilidades{
   padding-top: 3em;
   font-size: 2.5em;
