@@ -1,4 +1,4 @@
-@media (min-width: 200px) and (max-width: 600px) {
+@media (min-width: 200px) and (max-width: 700px) {
   .title{
     top: 8em;
     font-size: 2.5em;
@@ -311,3 +311,46 @@
   }
 }
 
+@media (min-height: 300px) and (max-height: 400px) {
+  .title{
+    top: 4em;
+    font-size: 3em;
+  }
+  #sobreMi{
+    height: 155vh;
+  }
+  .foto{
+    width: 20%;
+    left: 15em;
+  }
+  #habilidades, .containerTransparente{
+    height: 165vh;
+  }
+  i{
+    font-size: 4.6em;
+    top: 1em;
+  }
+  .devicon-bootstrap-plain-wordmark, .devicon-sass-original, .devicon-github-plain-wordmark, .devicon-react-original-wordmark{
+    top: 2em;
+  }
+  .devicon-git-plain{
+    font-size: 4.6em;
+    top: 3em;
+    left: 1em;
+  }
+  .titleProyectos{
+    margin-left: 3em;
+  }
+   #proyectos{
+    height: 400vh;
+  }
+  #contacto, .containerTransparenteContacto{
+    height: 157vh;
+  }
+   .logos{
+    left: 8.5em;
+  }
+  .arrow{
+    left: 15em;
+  }
+}
