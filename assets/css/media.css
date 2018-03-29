@@ -208,6 +208,9 @@
 }
 
 @media (min-height: 250px) and (max-height: 400px) {
+  .nav > #nav-check:checked + .nav-links {
+    height: calc(110vh - 110px);
+  }
   #backgroundImage{
     height: 130vh;
   }
