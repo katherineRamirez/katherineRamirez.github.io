@@ -22,7 +22,7 @@
     height: 75vh;
   }
   #proyectos{
-    height: 510vh;
+    height: 480vh;
   }
    p.titleContacto.colorHabilidades.wow.zoomIn{
     margin: 0;
@@ -219,7 +219,7 @@
     left: 1em;
   }
   .arrow{
-    left: 8em;
+    left: 7em;
     width: 2em;
   }
   .desarrollo{
@@ -316,7 +316,7 @@
     margin-left: 3em;
   }
    #proyectos{
-    height: 870vh;
+    height: 820vh;
     display: flex;
   }
 

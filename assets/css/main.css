@@ -8,7 +8,7 @@
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
   background-position: top;
 }
 .nav {
@@ -124,10 +124,11 @@
   transform: translate(-50%, -50%);
   opacity: 0;
 }
-
+section{
+  width: 100%;
+}
 #sobreMi, #habilidades, #contacto{
   padding-top: 3em;
-  width: 100%;
   height: 100vh;
   display: flex;
 }
@@ -381,7 +382,6 @@ i:hover{
 .imageBox{
     width: calc(50% + 50px);
     height: 100%;
-    background: #f00;
     box-sizing: border-box;
     border-left: 100px solid #1C1C1C;
     border-bottom: 400px solid transparent;
@@ -392,7 +392,6 @@ i:hover{
 .imageBox2{
     width: calc(50% + 50px);
     height: 100%;
-    background: #f00;
     box-sizing: border-box;
     border-left: 100px solid #1C1C1C;
     border-bottom: 400px solid transparent;
@@ -403,7 +402,6 @@ i:hover{
 .imageBox3{
     width: calc(50% + 50px);
     height: 100%;
-    background: #f00;
     box-sizing: border-box;
     border-left: 100px solid #1C1C1C;
     border-bottom: 400px solid transparent;
@@ -414,7 +412,6 @@ i:hover{
 .imageBox4{
     width: calc(50% + 50px);
     height: 100%;
-    background: #f00;
     box-sizing: border-box;
     border-left: 100px solid #1C1C1C;
     border-bottom: 400px solid transparent;
@@ -425,7 +422,6 @@ i:hover{
 .imageBox5{
     width: calc(50% + 50px);
     height: 100%;
-    background: #f00;
     box-sizing: border-box;
     border-left: 100px solid #1C1C1C;
     border-bottom: 400px solid transparent;
@@ -436,7 +432,6 @@ i:hover{
 .imageBox6{
     width: calc(50% + 50px);
     height: 100%;
-    background: #f00;
     box-sizing: border-box;
     border-left: 100px solid #1C1C1C;
     border-bottom: 400px solid transparent;
@@ -447,7 +442,6 @@ i:hover{
 .imageBox7{
     width: calc(50% + 50px);
     height: 100%;
-    background: #f00;
     box-sizing: border-box;
     border-left: 100px solid #1C1C1C;
     border-bottom: 400px solid transparent;
