@@ -15,8 +15,11 @@
   .textSobreMi{
     font-size: 1em;
   }
-  #backgroundImage, #sobreMi, #contacto, .containerTransparenteContacto{
+  #backgroundImage{
     height: 110vh;
+  }
+  #sobreMi, #contacto, .containerTransparenteContacto{
+    height: 120vh;
   }
   #habilidades, .containerTransparente{
     height: 110vh;
@@ -129,21 +132,21 @@
     height: calc(110vh - 110px);
   }
   #backgroundImage{
-    height: 90vh;
+    height: 110vh;
   }
   .title{
     top: 4em;
     font-size: 3em;
   }
   #sobreMi{
-    height: 110vh;
+    height: 130vh;
   }
   .foto{
     width: 20%;
     left: 15em;
   }
   #habilidades, .containerTransparente{
-    height: 90vh;
+    height: 130vh;
   }
   i{
     font-size: 4.6em;
@@ -164,7 +167,7 @@
   }
 
   #contacto, .containerTransparenteContacto{
-    height: 110vh;
+    height: 130vh;
   }
    .logos{
     left: 8.5em;
