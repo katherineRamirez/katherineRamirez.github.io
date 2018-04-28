@@ -19,10 +19,10 @@
     height: 110vh;
   }
   #sobreMi, #contacto, .containerTransparenteContacto{
-    height: 150vh;
+    min-height: 130vh;
   }
   #habilidades, .containerTransparente{
-    height: 130vh;
+    min-height: 150vh;
   }
 
    p.titleContacto.colorHabilidades.wow.zoomIn{
@@ -139,14 +139,14 @@
     font-size: 3em;
   }
   #sobreMi{
-    height: 150vh;
+    min-height: 100vh;
   }
   .foto{
     width: 20%;
     left: 15em;
   }
   #habilidades, .containerTransparente{
-    height: 130vh;
+    min-height: 110vh;
   }
   i{
     font-size: 4.6em;
@@ -162,12 +162,11 @@
   }
 
    #proyectos{
-    margin-left: 3.5em;
-    height: 155vh;
+    min-height: 150vh;
   }
 
   #contacto, .containerTransparenteContacto{
-    height: 150vh;
+    min-height: 110vh;
   }
    .logos{
     left: 8.5em;
