@@ -77,12 +77,16 @@
   top: 3em;
   color: white;
 }
-.titleSobreMi{
-  font-size: 2.5em;
+h2{
+  margin-top: 1.5em;
+}
+.btn{
+  background-color: #ff0044;
+  margin-left: 3em;
 }
 .containerTransparente{
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background: black;
   opacity: 0.7;
   filter: alpha(opacity=60);
@@ -95,9 +99,11 @@
 }
 #habilidades{
   background-image: url(https://cdn-images-1.medium.com/max/1068/1*YjcPGzby8LtCorOKW4ozLQ.jpeg);
+  color: white;
 }
 #contacto{
   background-image: url(https://spanishschoolsantabarbara.com/wp-content/uploads/2017/03/contacto.png);
+  color: white;
 }
 
 .textSobreMi{
@@ -110,33 +116,19 @@
   left: 5em;
   top: 2em;
 }
-.foto::before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  display: block;
-  content: '';
-  width: 0;
-  height: 0;
-  background: rgba(255,255,255,.2);
-  border-radius: 100%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-}
+
 section{
   width: 100%;
 }
 #sobreMi, #habilidades, #contacto{
   padding-top: 3em;
-  height: 100vh;
-  display: flex;
+  height: 110vh;
 }
 #proyectos{
-  padding-top: 3em;
+ padding-bottom: 2em;
+  padding-top: 2em;
   width: 100%;
-  height: 550vh;
-  display: flex;
+  min-height: 140vh;
 }
 .titleDetailProyect{
   font-size: 2.5em;
@@ -152,24 +144,21 @@ section{
   /*left: 2.5em;*/
   font-weight: bold;
 }
-.titleHabilidades{
+
+.imgCountry{
+  width: 280px;
+  height: 180px;
+}
+.card{
+  border: 1px solid rgba(0,0,0,.125);
+  min-width: 0;
+  margin-top: 3em;
+  margin-left: 2em;
+}
+.card-text{
   margin-left: 1em;
 }
-.titleProyectos{
-  color: black;
-  padding-top: 1em;
-  font-size: 2.5em;
-  position: relative;
-  left: 12em;
-}
-.titleContacto{
-  margin-left: 3em;
-}
 
-.colorContacto{
-  color: white;
-  text-align: center;
-}
 i{
   position: relative;
   top: 1.5em;
@@ -203,7 +192,7 @@ i:hover{
 
 .containerTransparenteContacto{
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background: black;
   opacity: 0.8;
   filter: alpha(opacity=60);
@@ -242,229 +231,7 @@ i:hover{
   text-align: center;
   padding-top: 1em;
 }
-.contentImg{
-  position: relative;
-  left: 30em;
-}
-.section{
-    position: absolute;
-    top: 25em;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 400px;
-    width: 1200px;
-    background: #1C1C1C;
-    box-shadow: 0 25px 30px rgba(0,0,0,.5);
-    display: flex;
-}
-.section2{
-    position: absolute;
-    top: 60em;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 400px;
-    width: 1200px;
-    background: #1C1C1C;
-    box-shadow: 0 25px 30px rgba(0,0,0,.5);
-    display: flex;
-}
-.section3{
-    position: absolute;
-    top: 96em;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 400px;
-    width: 1200px;
-    background: #1C1C1C;
-    box-shadow: 0 25px 30px rgba(0,0,0,.5);
-    display: flex;
-}
-.section4{
-    position: absolute;
-    top: 132em;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 400px;
-    width: 1200px;
-    background: #1C1C1C;
-    box-shadow: 0 25px 30px rgba(0,0,0,.5);
-    display: flex;
-}
-.section5{
-    position: absolute;
-    top: 167em;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 400px;
-    width: 1200px;
-    background: #1C1C1C;
-    box-shadow: 0 25px 30px rgba(0,0,0,.5);
-    display: flex;
-}
-.section6{
-    position: absolute;
-    top: 202em;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 400px;
-    width: 1200px;
-    background: #1C1C1C;
-    box-shadow: 0 25px 30px rgba(0,0,0,.5);
-    display: flex;
-}
-.section7{
-    position: absolute;
-    top: 237em;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 400px;
-    width: 1200px;
-    background: #1C1C1C;
-    box-shadow: 0 25px 30px rgba(0,0,0,.5);
-    display: flex;
-}
-.content{
-    width: calc(50% - 50px);
-    height: 100%;
-    background: #1C1C1C;
-    box-sizing: border-box;
-    padding: 30px 50px;
-    color: white;
-}
-.content2{
-    width: calc(50% - 50px);
-    height: 100%;
-    background: #1C1C1C;
-    box-sizing: border-box;
-    padding: 30px 50px;
-    color: white;
-}
-.content3{
-    width: calc(50% - 50px);
-    height: 100%;
-    background: #1C1C1C;
-    box-sizing: border-box;
-    padding: 30px 50px;
-    color: white;
-}
-.content4{
-    width: calc(50% - 50px);
-    height: 100%;
-    background: #1C1C1C;
-    box-sizing: border-box;
-    padding: 30px 50px;
-    color: white;
-}
-.content5{
-    width: calc(50% - 50px);
-    height: 100%;
-    background: #1C1C1C;
-    box-sizing: border-box;
-    padding: 30px 50px;
-    color: white;
-}
-.content6{
-    width: calc(50% - 50px);
-    height: 100%;
-    background: #1C1C1C;
-    box-sizing: border-box;
-    padding: 30px 50px;
-    color: white;
-}
-.content7{
-    width: calc(50% - 50px);
-    height: 100%;
-    background: #1C1C1C;
-    box-sizing: border-box;
-    padding: 30px 50px;
-    color: white;
-}
-.imageBox{
-    width: calc(50% + 50px);
-    height: 100%;
-    box-sizing: border-box;
-    border-left: 100px solid #1C1C1C;
-    border-bottom: 400px solid transparent;
-    background-image: url(../images/imgWeather.png);
-    background-repeat: no-repeat;
-    background-position: -100px -30px;
-}
-.imageBox2{
-    width: calc(50% + 50px);
-    height: 100%;
-    box-sizing: border-box;
-    border-left: 100px solid #1C1C1C;
-    border-bottom: 400px solid transparent;
-    background-image: url(../images/ruta.png);
-    background-repeat: no-repeat;
-    background-position: -100px -2px;
-}
-.imageBox3{
-    width: calc(50% + 50px);
-    height: 100%;
-    box-sizing: border-box;
-    border-left: 100px solid #1C1C1C;
-    border-bottom: 400px solid transparent;
-    background-image: url(../images/pronostico.png);
-    background-repeat: no-repeat;
-    background-position: -100px -1px;
-}
-.imageBox4{
-    width: calc(50% + 50px);
-    height: 100%;
-    box-sizing: border-box;
-    border-left: 100px solid #1C1C1C;
-    border-bottom: 400px solid transparent;
-    background-image: url(../images/country.png);
-    background-repeat: no-repeat;
-    background-position: -100px -1px;
-}
-.imageBox5{
-    width: calc(50% + 50px);
-    height: 100%;
-    box-sizing: border-box;
-    border-left: 100px solid #1C1C1C;
-    border-bottom: 400px solid transparent;
-    background-image: url(../images/giphy.png);
-    background-repeat: no-repeat;
-    background-position: -100px -1px;
-}
-.imageBox6{
-    width: calc(50% + 50px);
-    height: 100%;
-    box-sizing: border-box;
-    border-left: 100px solid #1C1C1C;
-    border-bottom: 400px solid transparent;
-    background-image: url(../images/imgFilter.png);
-    background-repeat: no-repeat;
-    background-position: -100px -1px;
-}
-.imageBox7{
-    width: calc(50% + 50px);
-    height: 100%;
-    box-sizing: border-box;
-    border-left: 100px solid #1C1C1C;
-    border-bottom: 400px solid transparent;
-    background-image: url(../images/swapi.png);
-    background-repeat: no-repeat;
-    background-position: -100px -1px;
-}
-.btnProyect{
-  background-color: #ff0044;
-  padding: 0.70em;
-  border-radius: 7px;
-  position: relative;
-  top: 2em;
-}
-.btnProyect2{
-  background-color: #ff0044;
-  padding: 0.70em;
-  border-radius: 7px;
-  margin-top: 2em;
-  margin-left: 1.5em;
-  position: relative;
-  top: 2em;
-}
+
 a{
   text-decoration: none;
   color: white;

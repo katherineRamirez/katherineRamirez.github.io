@@ -16,14 +16,12 @@
     font-size: 1em;
   }
   #backgroundImage, #sobreMi, #contacto, .containerTransparenteContacto{
-    height: 100vh;
+    height: 70vh;
   }
   #habilidades, .containerTransparente{
-    height: 75vh;
+    height: 52vh;
   }
-  #proyectos{
-    height: 480vh;
-  }
+
    p.titleContacto.colorHabilidades.wow.zoomIn{
     margin: 0;
     padding-top: 1em;
@@ -38,160 +36,7 @@
     left: 0;
     text-align: center;
   }
-  p.titleProyectos{
-    left: 2em;
-  }
-  .rowProyect{
-    position: relative;
-    right: 1.3em;
-  }
-  .contentImg{
-  left: 0;
-}
-  .section{
-    transform: translate(-50%,-50%);
-    left: 0.10px;
-    height: 320px;
-    width: 338px;
-
-}
-  .section2{
-    transform: translate(-50%,-50%);
-    left: 0.10px;
-    height: 320px;
-    width: 338px;
-    top: 50em;
-}
-  .section3{
-    transform: translate(-50%,-50%);
-    left: 0.10px;
-    height: 320px;
-    width: 338px;
-    top: 75em;
-}
-  .section4{
-    transform: translate(-50%,-50%);
-    left: 0.10px;
-    height: 320px;
-    width: 338px;
-    top: 100em;
-}
-  .section5{
-    transform: translate(-50%,-50%);
-    left: 0.10px;
-    height: 320px;
-    width: 338px;
-    top: 125em;
-}
-  .section6{
-    transform: translate(-50%,-50%);
-    left: 0.10px;
-    height: 320px;
-    width: 338px;
-    top: 150em;
-}
-  .section7{
-    transform: translate(-50%,-50%);
-    left: 0.10px;
-    height: 320px;
-    width: 338px;
-    top: 175em;
-}
-.content{
-    width: calc(62% - 62px);
-    padding: 10px 30px;
-    height: 310px;
-}
-.content2{
-    width: calc(62% - 62px);
-    padding: 10px 30px;
-    height: 310px;
-}
-.content3{
-    width: calc(62% - 62px);
-    padding: 10px 30px;
-    height: 310px;
-}
-.content4{
-    width: calc(62% - 62px);
-    padding: 10px 30px;
-    height: 310px;
-}
-.content5{
-    width: calc(62% - 62px);
-    padding: 10px 30px;
-    height: 310px;
-}
-.content6{
-    width: calc(62% - 62px);
-    padding: 10px 30px;
-    height: 310px;
-}
-.content7{
-    width: calc(62% - 62px);
-    padding: 10px 30px;
-    height: 310px;
-}
-.imageBox{
-    width: calc(80% - 80px);
-    height: 320px;
-    border-left: 90px solid #1C1C1C;
-    border-bottom: 300px solid transparent;
-}
-.imageBox2{
-    width: calc(80% - 80px);
-    height: 320px;
-    border-left: 90px solid #1C1C1C;
-    border-bottom: 300px solid transparent;
-}
-.imageBox3{
-    width: calc(80% - 80px);
-    height: 320px;
-    border-left: 90px solid #1C1C1C;
-    border-bottom: 300px solid transparent;
-}
-.imageBox4{
-    width: calc(80% - 80px);
-    height: 320px;
-    border-left: 90px solid #1C1C1C;
-    border-bottom: 300px solid transparent;
-}
-.imageBox5{
-    width: calc(80% - 80px);
-    height: 320px;
-    border-left: 90px solid #1C1C1C;
-    border-bottom: 300px solid transparent;
-}
-.imageBox6{
-    width: calc(80% - 80px);
-    height: 320px;
-    border-left: 90px solid #1C1C1C;
-    border-bottom: 300px solid transparent;
-}
-.imageBox7{
-    width: calc(80% - 80px);
-    height: 320px;
-    border-left: 90px solid #1C1C1C;
-    border-bottom: 300px solid transparent;
-}
-.detailProyect{
-  font-size: 0.75em;
-  margin-left: 0;
-}
-.titleDetailProyect{
-  font-size: 1.5em;
-  margin-top: 0.50em;
-  margin-left: 0;
-}
-.btnProyect{
-  padding: 0.30em;
-  top: 1.4em;
-}
-.btnProyect2{
-  padding: 0.30em;
-  margin-left: 5em;
-  top: 0;
-}
+ 
   i{
     top: 2em;
     float: left;
@@ -219,7 +64,7 @@
     left: 1em;
   }
   .arrow{
-    left: 7em;
+    left: 8.5em;
     width: 2em;
   }
   .desarrollo{
@@ -298,7 +143,7 @@
     left: 15em;
   }
   #habilidades, .containerTransparente{
-    height: 180vh;
+    height: 170vh;
   }
   i{
     font-size: 4.6em;
@@ -312,16 +157,13 @@
     top: 3em;
     left: 1em;
   }
-  .titleProyectos{
-    margin-left: 3em;
-  }
+
    #proyectos{
-    height: 820vh;
-    display: flex;
+    margin-left: 3.5em;
   }
 
   #contacto, .containerTransparenteContacto{
-    height: 180vh;
+    height: 170vh;
   }
    .logos{
     left: 8.5em;
