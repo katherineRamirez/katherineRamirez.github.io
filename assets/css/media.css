@@ -129,21 +129,21 @@
     height: calc(110vh - 110px);
   }
   #backgroundImage{
-    height: 110vh;
+    height: 90vh;
   }
   .title{
     top: 4em;
     font-size: 3em;
   }
   #sobreMi{
-    height: 130vh;
+    height: 90vh;
   }
   .foto{
     width: 20%;
     left: 15em;
   }
   #habilidades, .containerTransparente{
-    height: 130vh;
+    height: 90vh;
   }
   i{
     font-size: 4.6em;
@@ -163,7 +163,7 @@
   }
 
   #contacto, .containerTransparenteContacto{
-    height: 170vh;
+    height: 90vh;
   }
    .logos{
     left: 8.5em;
