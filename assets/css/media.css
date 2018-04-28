@@ -16,10 +16,10 @@
     font-size: 1em;
   }
   #backgroundImage, #sobreMi, #contacto, .containerTransparenteContacto{
-    height: 70vh;
+    height: 100vh;
   }
   #habilidades, .containerTransparente{
-    height: 52vh;
+    height: 100vh;
   }
 
    p.titleContacto.colorHabilidades.wow.zoomIn{
