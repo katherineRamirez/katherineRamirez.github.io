@@ -138,9 +138,9 @@
     top: 4em;
     font-size: 3em;
   }
-  /*#sobreMi{
-    min-height: 100vh;
-  }*/
+  #sobreMi{
+    min-height: 110vh;
+  }
   .foto{
     width: 20%;
     left: 15em;
