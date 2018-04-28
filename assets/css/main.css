@@ -84,6 +84,9 @@ h2{
   background-color: #ff0044;
   margin-left: 3em;
 }
+.btn:hover{
+  background-color: #4d4d4d;
+}
 .containerTransparente{
   width: 100%;
   height: 110vh;
@@ -128,7 +131,7 @@ section{
  padding-bottom: 2em;
   padding-top: 2em;
   width: 100%;
-  min-height: 140vh;
+  min-height: 150vh;
 }
 .titleDetailProyect{
   font-size: 2.5em;
