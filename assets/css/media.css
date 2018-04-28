@@ -18,9 +18,9 @@
   #backgroundImage{
     height: 110vh;
   }
-  
+  /*
   #sobreMi, #contacto, .containerTransparenteContacto{
-    height: 130vh;
+    min-height: 130vh;
   }
   /*
   #habilidades, .containerTransparente{
@@ -145,10 +145,13 @@
     width: 20%;
     left: 15em;
   }
-  /*
+  #sobreMi{
+    height: 120vh;
+  }
+
   #habilidades, .containerTransparente{
-    min-height: 110vh;
-  }*/
+    min-height: 130vh;
+  }
   i{
     font-size: 4.6em;
     top: 1em;
@@ -161,13 +164,13 @@
     top: 3em;
     left: 1em;
   }
-/*
+
    #proyectos{
-    min-height: 150vh;
+    margin-left: 10em;
   }
 
   #contacto, .containerTransparenteContacto{
-    min-height: 110vh;
+    height: 130vh;
   }*/
    .logos{
     left: 8.5em;
