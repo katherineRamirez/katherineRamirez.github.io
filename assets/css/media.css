@@ -129,21 +129,21 @@
     height: calc(110vh - 110px);
   }
   #backgroundImage{
-    height: 130vh;
+    height: 110vh;
   }
   .title{
     top: 4em;
     font-size: 3em;
   }
   #sobreMi{
-    height: 160vh;
+    height: 130vh;
   }
   .foto{
     width: 20%;
     left: 15em;
   }
   #habilidades, .containerTransparente{
-    height: 170vh;
+    height: 130vh;
   }
   i{
     font-size: 4.6em;
