@@ -15,7 +15,7 @@
   .textSobreMi{
     font-size: 1em;
   }
-  #backgroundImage{
+  /*#backgroundImage{
     height: 110vh;
   }
   #sobreMi, #contacto, .containerTransparenteContacto{
@@ -23,7 +23,7 @@
   }
   #habilidades, .containerTransparente{
     min-height: 150vh;
-  }
+  }*/
 
    p.titleContacto.colorHabilidades.wow.zoomIn{
     margin: 0;
@@ -131,23 +131,24 @@
   .nav > #nav-check:checked + .nav-links {
     height: calc(110vh - 110px);
   }
-  #backgroundImage{
+  /*#backgroundImage{
     height: 110vh;
-  }
+  }*/
   .title{
     top: 4em;
     font-size: 3em;
   }
-  #sobreMi{
+  /*#sobreMi{
     min-height: 100vh;
-  }
+  }*/
   .foto{
     width: 20%;
     left: 15em;
   }
+  /*
   #habilidades, .containerTransparente{
     min-height: 110vh;
-  }
+  }*/
   i{
     font-size: 4.6em;
     top: 1em;
@@ -160,14 +161,14 @@
     top: 3em;
     left: 1em;
   }
-
+/*
    #proyectos{
     min-height: 150vh;
   }
 
   #contacto, .containerTransparenteContacto{
     min-height: 110vh;
-  }
+  }*/
    .logos{
     left: 8.5em;
   }
