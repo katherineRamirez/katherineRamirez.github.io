@@ -139,7 +139,7 @@
     font-size: 3em;
   }
   #sobreMi{
-    min-height: 130vh;
+    height: 130vh;
   }
   .foto{
     width: 20%;
